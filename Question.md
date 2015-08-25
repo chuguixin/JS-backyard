@@ -20,3 +20,11 @@ function Person() {
 }
 new Person === Person(); //What is the result?
 ```
+
+###Q3:
+```javascript
+Function instanceof Function
+Function instanceof Object
+Object instanceof Function
+Object instanceof Object //What is the result?
+```
