@@ -28,3 +28,9 @@ Function instanceof Object
 Object instanceof Function
 Object instanceof Object //What is the result?
 ```
+
+###Q4:
+```javascript
+1 instanceof Number
+new Number(1) instanceof Number //What is the result?
+```

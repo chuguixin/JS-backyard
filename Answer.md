@@ -37,4 +37,13 @@ Object instanceof Object //What is the result?
 ```
 
 result: `true` `true` `true` `true`      
-Explanation: 是时候祭出这种图片了：[javascript-object](https://raw.github.com/chuguixin/JS-backyard/master/images/jsobj.jpg)
+Explanation: `instanceof`操作符的具体操作步骤在规范中描述[在这里](http://es5.github.io/#x11.8.6)，与本题相关的地方，无特别之处。但是，是时候祭出这种图片了：![javascript-object](https://raw.github.com/chuguixin/JS-backyard/master/images/jsobj.jpg)
+
+###A4:
+```javascript
+1 instanceof Number
+new Number(1) instanceof Number //What is the result?
+```
+
+result: `false` `true`      
+Explanation: 接上文，`instanceof`操作符的规范中描述[在这里](http://es5.github.io/#x11.8.6)的第7步对`rval`调用了内部方法`[[HasInstance]]`，渠道[`[[HasInstance]]`](http://es5.github.io/#x15.3.5.3)，只需要看到第一步就清晰了，而`1`和`new Number(1)`的区别就不用说了，你要是不懂这个，相信也看不到这里。
