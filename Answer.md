@@ -38,6 +38,7 @@ Object instanceof Object //What is the result?
 
 result: `true` `true` `true` `true`      
 Explanation: `instanceof`操作符的具体操作步骤在规范中描述[在这里](http://es5.github.io/#x11.8.6)，与本题相关的地方，无特别之处。但是，是时候祭出这张图片了：
+
 ![javascript-object](https://raw.github.com/chuguixin/JS-backyard/master/images/jsobj.jpg)
 
 ###A4:
