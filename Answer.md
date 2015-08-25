@@ -37,5 +37,4 @@ Object instanceof Object //What is the result?
 ```
 
 result: `true` `true` `true` `true`      
-Explanation: 是时候祭出这种图片了：
-(https://raw.github.com/chuguixin/JS-backyard/master/images/jsobj.jpg)
+Explanation: 是时候祭出这种图片了：[javascript-object](https://raw.github.com/chuguixin/JS-backyard/master/images/jsobj.jpg)
